@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Excel data, and config data reporter is ready.]]>
+    </line>
+    <line>
+      <![CDATA[Reporter is ready. Preparing to open the browser and application.]]>
+    </line>
+    <line>
+      <![CDATA[The application is up and running.]]>
+    </line>
+    <line>
+      <![CDATA[Test is complete. preparing to capture screenshot.]]>
+    </line>
+    <line>
+      <![CDATA[Test is complete, check the html report >>>]]>
+    </line>
+    <line>
+      <![CDATA[The browser is closed.]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11376" started-at="2021-03-27T01:31:36Z" finished-at="2021-03-27T01:31:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11376" started-at="2021-03-27T01:31:36Z" finished-at="2021-03-27T01:31:47Z">
+      <class name="com.qa.Swaag.Tests.LoginTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.qa.Swaag.Tests.LoginTest@66d33a]" name="beforeSuite" is-config="true" duration-ms="1746" started-at="2021-03-26T21:31:34Z" finished-at="2021-03-26T21:31:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Excel data, and config data reporter is ready.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.qa.Swaag.Tests.LoginTest@66d33a]" name="openApplication" is-config="true" duration-ms="6575" started-at="2021-03-26T21:31:36Z" finished-at="2021-03-26T21:31:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Reporter is ready. Preparing to open the browser and application.]]>
+            </line>
+            <line>
+              <![CDATA[The application is up and running.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.qa.Swaag.Tests.LoginTest@66d33a]" name="loginApp" duration-ms="1265" started-at="2021-03-26T21:31:42Z" finished-at="2021-03-26T21:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Swaag.Tests.LoginTest@66d33a]" name="afterMethod" is-config="true" duration-ms="2313" started-at="2021-03-26T21:31:44Z" finished-at="2021-03-26T21:31:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTest.loginApp()[pri:0, instance:com.qa.Swaag.Tests.LoginTest@66d33a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is complete. preparing to capture screenshot.]]>
+            </line>
+            <line>
+              <![CDATA[Test is complete, check the html report >>>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.Swaag.Tests.LoginTest@66d33a]" name="tearDown" is-config="true" duration-ms="1204" started-at="2021-03-26T21:31:46Z" finished-at="2021-03-26T21:31:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The browser is closed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.Swaag.Tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
